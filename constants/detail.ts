@@ -14,5 +14,6 @@ export interface Detail{
     reviews:Array<Review>;
     text:string;
     geometry:number;
-
+    location: any;
+    photos: any;
 }
